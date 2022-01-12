@@ -12,7 +12,7 @@ sudo /etc/init.d/networking start
 # trigger command on file creation:
 rm -f /home/uuu/Documents/Gdrive/zzz/kc/new/song.mp3
 while [ ! -e /home/uuu/Documents/Gdrive/zzz/kc/new/song.mp3 ]; do sleep 1; done
-mv /home/uuu/Documents/Gdrive/zzz/kc/new/song.mp3 /home/uuu/Documents/Gdrive/zzz/kc/new/kc$(date +"%H%M%S").jpg
+mv /home/uuu/Documents/Gdrive/zzz/kc/new/song.mp3 /home/uuu/Documents/Gdrive/zzz/kc/new/kc$(date +"%H%M%S").mp3
 clear
 
 # shutdown computer
